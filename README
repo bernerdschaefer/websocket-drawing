@@ -1,0 +1,12 @@
+A simple Canvas + WebSocket example built with jQuery and em-websocket. Watch
+a screencast here: http://screencast.com/t/ZmZjYWIx
+
+To run yourself, fire up the EventMachine server in one tab:
+  > ./server.rb
+
+And then start a simple HTTP server for the HTML page in another tab:
+  > python -m SimpleHTTPServer
+
+Then visit http://localhost:8000/ in Chrome or a WebKit nightly build with
+multiple windows and start drawing!
+
